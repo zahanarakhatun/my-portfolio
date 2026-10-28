@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zahanara | Developer</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<style>
+body{font-family:Inter,sans-serif;scroll-behavior:smooth}
+.hero{background:linear-gradient(135deg,#667eea,#764ba2);color:white;padding:130px 0 80px 0}
+.skill-card{transition:0.3s}.skill-card:hover{transform:translateY(-10px);box-shadow:0 20px 30px rgba(0,0,0,0.1)}
+.btn-gradient{background:linear-gradient(90deg,#667eea,#764ba2);border:0;color:white}
+</style>  
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-white shadow-sm fixed-top"><div class="container"><a class="navbar-brand fw-bold">ZAHANARA KHATUN</a><div class="ms-auto"><a href="#contact" class="btn btn-gradient rounded-pill px-4">Hire Me</a></div></div></nav>
+
+<!-- HERO - এখানে আর কোনো View Project বাটন থাকবে না -->
+<div class="hero text-center"><div class="container" data-aos="fade-up">
+<h1 class="display-3 fw-bold">Hi, I'm Zahanara khatun</h1><h3 class="mt-3 fw-light">Full Stack Developer | Django & React</h3>
+<p class="lead mt-4">I build Education Portals & Business Websites</p>
+<div class="mt-4">
+<a href="#projects" class="btn btn-light btn-lg rounded-pill px-5 me-2">View My Work</a>
+<a href="#contact" class="btn btn-outline-light btn-lg rounded-pill px-5">Contact Me</a>
+</div>
+</div></div>
+
+<!-- PROJECTS - এখন বাটনগুলো সঠিক জায়গায় -->
+<div class="container py-5" id="projects"><h2 class="text-center fw-bold mb-5" data-aos="fade-up">My 3 Projects</h2>
+<div class="row g-4">
+<div class="col-md-4" data-aos="fade-up" data-aos-delay="100"><div class="card skill-card p-4 border-0 shadow-sm h-100"><h5>🎓 Education Portal</h5><p class="text-muted">Django + Templates + Static Setup</p><span class="badge bg-primary mb-3">Live</span><a href="projects/education.html" class="btn btn-dark w-100 rounded-pill mt-auto">View Project →</a></div></div>
+<div class="col-md-4" data-aos="fade-up" data-aos-delay="200"><div class="card skill-card p-4 border-0 shadow-sm h-100"><h5>💼 Business Site</h5><p class="text-muted">Modern Landing Page for Client</p><span class="badge bg-warning text-dark mb-3">Live</span><a href="projects/business.html" class="btn btn-warning w-100 rounded-pill mt-auto">View Project →</a></div></div>
+<div class="col-md-4" data-aos="fade-up" data-aos-delay="300"><div class="card skill-card p-4 border-0 shadow-sm h-100"><h5>👤 Portfolio</h5><p class="text-muted">This site you are viewing</p><span class="badge bg-success mb-3">You are here</span><a href="projects/portfolio.html" class="btn btn-success w-100 rounded-pill mt-auto">View Project →</a></div></div>
+</div></div>
+
+<div class="bg-light py-5" id="contact"><div class="container"><div class="row justify-content-center"><div class="col-md-6 text-center" data-aos="zoom-in">
+<h2 class="fw-bold">Contact Me</h2><p class="text-muted">Let's work together</p>
+<form action="https://formspree.io/f/YOUR_ID" method="POST" class="mt-4 text-start">
+<input class="form-control mb-3" type="text" name="name" placeholder="Your Name" required>
+<input class="form-control mb-3" type="email" name="email" placeholder="Your Email" required>
+<textarea class="form-control mb-3" name="message" rows="4" placeholder="Your Message"></textarea>
+<button class="btn btn-gradient w-100 rounded-pill py-2">Send Message</button>
+</form>
+<p class="mt-3">WhatsApp: 01922713440</p>
+</div></div></div></div>
+
+<footer class="bg-black text-white text-center py-3">© 2026 Zahanara khatun - Dhaka, Bangladesh</footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><script>AOS.init();</script>
+</body>
+</html>
